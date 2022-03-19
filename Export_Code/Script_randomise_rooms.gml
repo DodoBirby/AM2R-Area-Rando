@@ -1,5 +1,7 @@
 AR_Logic()
 global.accessnodes = ds_list_create()
+if ds_exists(global.roommap, 1)
+    ds_map_destroy(global.roommap)
 global.roommap = ds_map_create()
 map = global.roommap
 access = global.accessnodes

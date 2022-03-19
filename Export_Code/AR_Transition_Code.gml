@@ -1,7 +1,7 @@
 map = global.roommap
 from = id
-ds_list_clear(global.randodoor)
-ds_list_add(global.randodoor, id)
+if (ds_list_find_index(global.randodoor, id) == -1)
+    ds_list_add(global.randodoor, id)
 to = ds_map_find_value(map, from)
 switch to
 {
