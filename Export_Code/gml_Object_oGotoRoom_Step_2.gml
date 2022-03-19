@@ -21,6 +21,7 @@ if (((direction == 0 || direction == 180) && oCharacter.y <= (y + 8) && oCharact
         }
         if (ds_list_find_index(global.randodoor, id) != -1)
         {
+            global.darkness = 0
             if (direction == 0)
                 global.targetx = (targetx + 32)
             if (direction == 180)

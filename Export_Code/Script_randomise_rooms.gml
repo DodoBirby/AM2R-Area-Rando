@@ -1,7 +1,6 @@
 AR_Logic()
 global.accessnodes = ds_list_create()
 global.roommap = ds_map_create()
-global.randodoor = ds_list_create()
 map = global.roommap
 access = global.accessnodes
 list = global.nodelist

@@ -41,6 +41,8 @@ else
     file_text_readln(fid)
     sv6_get_seed(fid)
     file_text_readln(fid)
+    sv6_get_ar(fid)
+    file_text_readln(fid)
     file_text_close(fid)
     file_delete((filename + "d"))
     global.maxhealth = (99 + ((global.etanks * 100) * oControl.mod_etankhealthmult))
