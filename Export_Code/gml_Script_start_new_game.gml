@@ -10,7 +10,7 @@ generating = 1
 while (generating == 1)
 {
     AR_Randomise_Rooms()
-    if (ds_map_size(global.roommap) < 24)
+    if (ds_map_size(global.roommap) < 26)
         ds_map_destroy(global.roommap)
     else
         generating = 0
