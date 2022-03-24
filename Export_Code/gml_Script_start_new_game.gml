@@ -6,15 +6,7 @@ global.timeofday = 0
 reset_map()
 init_map()
 load_character_vars()
-generating = 1
-while (generating == 1)
-{
-    AR_Randomise_Rooms()
-    if (ds_map_size(global.roommap) < 26)
-        ds_map_destroy(global.roommap)
-    else
-        generating = 0
-}
+AR_Randomise_Rooms()
 file_delete((("random" + string((global.saveslot + 1))) + ".ini"))
 file_delete((("save" + string((global.saveslot + 1))) + ".dat"))
 scr_newgame()

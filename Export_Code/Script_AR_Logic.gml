@@ -1,4 +1,6 @@
 global.nodelist = ds_list_create()
+global.accessnodes = ds_list_create()
+access = global.accessnodes
 list = global.nodelist
 tr_149603[1] = 149603
 tr_149603[2] = 122610
@@ -25,20 +27,20 @@ tr_136521[1] = 136521
 tr_136521[2] = 132419
 ds_list_add(list, tr_136521)
 ds_list_add(list, 149762)
-ds_list_add(list, 107801)
 ds_list_add(list, 108025)
-ds_list_add(list, 109737)
 ds_list_add(list, 110438)
-ds_list_add(list, 103777)
 ds_list_add(list, 123179)
 ds_list_add(list, 115249)
-ds_list_add(list, 114104)
-ds_list_add(list, 116449)
 ds_list_add(list, 116995)
-ds_list_add(list, 104117)
-ds_list_add(list, 105774)
 ds_list_add(list, 106333)
-ds_list_add(list, 105815)
 ds_list_add(list, 136536)
-ds_list_add(list, 101303)
 ds_list_add(list, 101403)
+ds_list_add(access, 107801)
+ds_list_add(access, 109737)
+ds_list_add(access, 103777)
+ds_list_add(access, 114104)
+ds_list_add(access, 116449)
+ds_list_add(access, 104117)
+ds_list_add(access, 105774)
+ds_list_add(access, 105815)
+ds_list_add(access, 101303)
