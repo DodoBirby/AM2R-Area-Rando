@@ -463,7 +463,7 @@
       "y": 384,
       "object_definition": "oGotoRoom",
       "instance_id": 135456,
-      "creation_code": "gml_RoomCC_rm_a5b03a_8158_Create",
+      "creation_code": "AR_Transition_Code",
       "scale_x": 1,
       "scale_y": 1,
       "color": 4294967295,

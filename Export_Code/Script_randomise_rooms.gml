@@ -29,10 +29,16 @@ while (ds_list_size(access) > 0)
     {
         for (i = 2; i < array_length_1d(node2); i += 1)
         {
-            if is_undefined(ds_map_find_value(map, node2[i]))
+            if (ds_list_find_index(access, node2[i]) == -1)
             {
-                ds_list_add(access, node2[i])
-                ds_list_delete(list, ds_list_find_index(list, node2[i]))
+                if is_undefined(ds_map_find_value(map, node2[i]))
+                {
+                    if (node2[i] != node2[1])
+                    {
+                        ds_list_add(access, node2[i])
+                        ds_list_delete(list, ds_list_find_index(list, node2[i]))
+                    }
+                }
             }
         }
         node2 = node2[1]
@@ -40,6 +46,8 @@ while (ds_list_size(access) > 0)
     ds_map_add(map, node1, node2)
     ds_map_add(map, node2, node1)
     file_text_write_string(fid, ((string(node1) + "-") + string(node2)))
+    file_text_writeln(fid)
+    file_text_write_string(fid, string(ds_list_size(access)))
     file_text_writeln(fid)
 }
 file_text_close(fid)

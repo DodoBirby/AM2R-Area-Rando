@@ -291,5 +291,115 @@ switch to
         transitionx = 316
         transitiony = 160
         break
+    case 111840:
+        targetroom = 110
+        targetx = 16
+        targety = 128
+        height = 80
+        direction = 0
+        camstartx = 16
+        camstarty = 120
+        transitionx = 4
+        transitiony = 128
+        break
+    case 112031:
+        targetroom = 111
+        targetx = 304
+        targety = 128
+        height = 64
+        direction = 180
+        camstartx = 120
+        camstarty = 64
+        transitionx = 316
+        transitiony = 128
+        break
+    case 107662:
+        targetroom = 56
+        targetx = 304
+        targety = 160
+        height = 80
+        direction = 180
+        camstartx = 304
+        camstarty = 120
+        transitionx = 316
+        transitiony = 160
+        break
+    case 109211:
+        targetroom = 77
+        targetx = 16
+        targety = 160
+        height = 80
+        direction = 0
+        camstartx = 16
+        camstarty = 160
+        transitionx = 4
+        transitiony = 160
+        break
+    case 129385:
+        targetroom = 216
+        targetx = 16
+        targety = 192
+        height = 64
+        direction = 0
+        camstartx = 16
+        camstarty = 120
+        transitionx = 4
+        transitiony = 192
+        break
+    case 125915:
+        targetroom = 189
+        targetx = 624
+        targety = 3072
+        height = 64
+        direction = 180
+        camstartx = 624
+        camstarty = 3072
+        transitionx = 316
+        transitiony = 192
+        break
+    case 133684:
+        targetroom = 251
+        targetx = 304
+        targety = 144
+        height = 64
+        direction = 180
+        camstartx = 304
+        camstarty = 120
+        transitionx = 316
+        transitiony = 144
+        break
+    case 133711:
+        targetroom = 252
+        targetx = 16
+        targety = 384
+        height = 64
+        direction = 0
+        camstartx = 16
+        camstarty = 360
+        transitionx = 4
+        transitiony = 144
+        break
+    case 135412:
+        targetroom = 280
+        targetx = 16
+        targety = 384
+        height = 64
+        direction = 0
+        camstartx = 16
+        camstarty = 360
+        transitionx = 4
+        transitiony = 144
+        break
+    case 135456:
+        targetroom = 281
+        targetx = 624
+        targety = 384
+        height = 64
+        direction = 180
+        camstartx = 304
+        camstarty = 360
+        transitionx = 316
+        transitiony = 144
+        break
 }
 
